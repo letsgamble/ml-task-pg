@@ -81,5 +81,5 @@ shap.summary_plot(shap_values, X_sample,
                   show=False)
 
 # Save the plot to a file
-plt.savefig('Student_Performance.pdf', bbox_inches='tight')  # Saves a PDF file
+plt.savefig('Student_Performance_Grid.pdf', bbox_inches='tight')  # Saves a PDF file
 plt.close()
